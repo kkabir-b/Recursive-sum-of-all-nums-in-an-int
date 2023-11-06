@@ -1,7 +1,7 @@
 n=999
 
 n=str(n)
-global f
+global f #global needed so we can refrence it in the function
 f=0
 def s(q,p):
   global f
